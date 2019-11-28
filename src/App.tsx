@@ -30,8 +30,6 @@ const App: React.FC<AppProps> = () => {
         <p>
           Param: <code className="code">{iframeParam || 'nenhum parâmetro recebido'}</code>
         </p>
-
-        <iframe src="https://master.d2eo661bcmn9ya.amplifyapp.com/?userToken=123456789" />
       </header>
     </div>
   );
